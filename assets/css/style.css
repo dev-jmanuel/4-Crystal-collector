@@ -1,0 +1,61 @@
+header {
+    clear: both;
+    background: #eee;
+    padding: 20px;
+    overflow: auto;
+    margin: 16px;
+}
+
+#instruct {
+    clear: both;
+    background: #eee;
+    padding: 20px 30px;
+    overflow: auto;
+    margin: 16px;
+}
+
+#rupeeBoard {
+    float: left;
+    width: 23%;
+    background: #eee;
+    padding: 20px;
+    overflow: auto;
+    margin: 16px;
+}
+
+img {
+    width: 180px;
+    padding: 8px;
+}
+
+#valueBoard, #scoreBoard {
+    float: left;
+    width: 32.24%;
+    height: 448px;
+    background: #eee;
+    padding: 25px;
+    overflow: auto;
+    margin: 16px;
+}
+
+#valueTarget, #wins {
+    height: 410px;
+    width: 240px;
+    margin-right: 38px;
+    margin-left: 19px;
+    float: left;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+  
+#valueCurrent, #losses {
+    height: 410px;
+    width: 240px;
+    margin-left: 38px;
+    margin-right: 19px;
+    float: left;
+    border-style: solid;   
+    border-color: white;
+    text-align: center;
+}
